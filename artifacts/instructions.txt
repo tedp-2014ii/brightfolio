@@ -1,0 +1,37 @@
+/*
+* Global
+*/
+Se incluye la fuente raleway-regular-webfont
+Se sugiere usar la mayor cantidad de regas CSS3
+/*
+* Home
+*/
+/* Nav */
+// Elemento activo
+background-color: #04354c;
+/* Slideshow */
+// Imagen Centro
+width: 865px;
+height: 258px;
+// Color de Marco
+background-color: #99bfcc;
+// Pie de la Imagen
+backround-color: #18191c;
+backround-color: #2a2c31;
+/* Content */
+// Color del bloque
+background-color: #02232e;
+// Color bloque interno
+background-color: #022029;
+// Color tweet
+background-color: #afdff2;
+/*
+* Contact Us
+*/
+// Titulo
+background-color: #031014;
+// Formulario
+border-color: #000000;
+// Button
+background-color: #cbccce;
+background-color: #fcfdff;

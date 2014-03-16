@@ -3,6 +3,7 @@
 */
 Se incluye la fuente raleway-regular-webfont
 Se sugiere usar la mayor cantidad de regas CSS3
+El background global #076484
 /*
 * Home
 */

@@ -1,0 +1,44 @@
+/*Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/*Estilo*/
+body
+{
+	font-family: raleway-regular-webfont;
+	background-color: #076484;
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.flotado{
+	float: left;
+}
+
+header{
+	margin-top: 30px;
+	margin-left: 30px;
+	}
+	#logo{
+	padding-right: 270px;
+	}
+		header nav ul{
+	list-style: none;
+	}
+	header nav ul li{
+	padding-left: 20px;
+
+
+	}
+	header nav ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	header nav ul li a:active{
+		background-color: #04354c;
+		border-radius: 40px;
+	}

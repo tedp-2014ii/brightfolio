@@ -6,135 +6,19 @@
 
 body{
 	background-color: #076484;
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-	background-image: url('../images/background.png');
-	background-repeat: no-repeat;
+}
+
+@font-face
+{
+ font-family: 'raleway-regular-webfont';
+ src: url('..\artifacts\raleway-regular-webfont\raleway-regular-webfont.ttf');
 }
 
 header{
-	margin: 0;
+	width: 960px;
+	margin: 0 auto;
 	position: relative;
 }
-	header .flotado{
-		float: left;
-		overflow: hidden;
-	}
 
-	#logo{
-		width: 250px;
-		margin: auto;
-		position: relative;
-	}
-	#primlogo{
-		padding-left: 30px;
-		padding-top: 30px;
-		padding-bottom: 10px;
-	}
-
-	#menu{
-		width: 650px;
-		margin: auto;
-		padding-top: 40px;
-		padding-bottom: 10px;
-		position: relative;
-	}
-	header nav ul{
-		padding-left: 160px;
-	}
-	header nav ul li a{
-		text-decoration: none;
-		color: white;
-		font-size: small;
-		padding-left: 20px;
-		padding-right: 20px;
-		margin: auto;
-	}
-	header nav ul li a:hover{
-		background-color: #04354c;
-		border-radius: 10px;
-		padding: 3px 18px;
-	}
-
-figure{
-	margin: 0;
-	position: relative;
-	padding-left: 25px;
-}
-	figure img{
-		margin: 0;
-		padding: 0;
-		width: 865px;
-		height: 258px;
-		border: 15px solid; 
-		border-color: rgba(153, 191, 204, 0.5); 
-		border-top-right-radius: 10px;
-		border-top-left-radius: 10px;
-	}
-	figcaption{
-		margin-top: 0;
-		padding: 0;
-		position: relative;
-	}
-
-	figcaption p{
-		margin:0;
-		color: white;
-		padding-left: 20px;
-		width: 845px;
-		background-color: #18191c;
-		border:15px solid #18191c;
-		border-bottom-left-radius: 10px;
-		border-bottom-right-radius: 10px;
-	}
-
-article{
-	color: white;
-	width: 865px;
-	margin-left: 25px;
-	margin-top: 20px;
-	background-color: #02232e;
-	overflow: hidden;
-	border-radius: 10px;
-	border: 15px solid #02232e;
-}
-
-article a{
-	color: white;
-}
-
-section{
-	overflow: hidden;
-}
-
-#text{
-	width: 520px;
-}
-
-#twitter{
-	border:15px solid #afdff2;
-	border-radius: 15px;
-	color: black;
-	width: 285px;
-	background-color: #afdff2;
-}
-span{
-	font-weight:900;
-}
-
-.bloque{
-			float: left;
-			width: 240px;
-			margin: 10px;
-			overflow: hidden;
-			background-color: #022029;
-			border:5px solid #022029;;
-			border-radius: 10px;
-			}
-
-.bloque p{
-	border-top:  2px dotted white;
-}
 
 

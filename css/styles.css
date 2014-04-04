@@ -5,11 +5,11 @@
 	border: none;
 }
 /*Estilo*/
-@font-face {
+@font-face{
 	font-family: "ralewayIE";
 	src: url("../artifacts/raleway-regular-webfont/raleway-regular-webfont.eot");
 }
-@font-face {
+@font-face{
 	font-family: "releway";
 	src: url("../artifacts/raleway-regular-webfont/raleway-regular-webfont.ttf");
 }
@@ -66,7 +66,7 @@ figure{
 		margin-left: 40px;
 		width: 865px;
 		height: 258px;
-		border: 15px solid #99bfcc;
+		border: 15px solid rgba(153, 191, 204, 0.6);
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
 	}
@@ -85,11 +85,16 @@ article{
 	color: white;
 	width: 865px;
 	margin-left: 40px;
-	background-color: #02232e;
+	background-color: rgba(2, 35, 46, 0.8);
 	overflow: hidden;
 	border-radius: 10px;
-	border: 15px solid #02232e;
+	border: 15px solid rgba(2, 35, 46, 0);
+	margin-bottom:  40px;
 }
+article section h4{
+	padding-bottom: 100px;
+}
+
 article a{
 	color: white;
 }
@@ -115,7 +120,7 @@ span{
 
 .bloque{
 			float: left;
-			width: 240px;
+			width: 250px;
 			margin: 10px;
 			overflow: hidden;
 			background-color: #022029;
@@ -127,3 +132,37 @@ span{
 	border-top:  2px dotted white;
 }
 
+footer{
+	border-bottom: 2px dotted white;
+}
+
+/* CONTACT US */
+
+
+
+#title_con{
+	background-color: #031014;
+	width: 845px;
+	height: 30px;
+	border:10px solid #031014;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	padding-left: 15px;
+}
+
+
+
+#contact-form {
+	width: 465px; 
+   padding: 20px; 
+   margin: 30px; 
+   border-radius: 15px;   
+   -moz-border-radius: 15px; 
+   -webkit-border-radius: 15px; 
+}
+
+article section div {
+	border-color: #000000;
+}
+
+ 

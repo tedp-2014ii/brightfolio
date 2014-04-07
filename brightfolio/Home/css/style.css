@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background-image: url(../background.png);
+	background-color: #076484;
+}
+header{
+	width: 940px;
+	margin: 35px auto 20px auto;
+	position: relative;
+}
+	header button{
+		display: inline-block;
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin: 0 5px;
+		border-radius: 20px 20px 20px 20px;
+		background-color: transparent;
+	}
+		header a:link{
+			color:#FFFFFF;
+			background-color: green;
+		}
+		header a:visited{
+			color: #FFFFFF;
+			background-color: green;	
+		}
+		header button p{
+			color: #FFFFFF;
+		}
+article{
+	width: 940px;
+	height: 900px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #02232e;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+	article .flotado{
+		background-color: #031014;
+		border-radius: 10px 10px 0 0;
+		width: 930px;
+		height: 40px;
+		float: left;
+		margin: 5px;
+	}
+		article .flotado h3{
+			margin: 8px 20px;
+			float: left;
+		}
+	article section{
+		width: 500px;
+		margin: 0 auto;
+		position: relative;
+		float: left;
+	}	
+			#name{
+				width: 200px;
+				height: 30px;
+				margin: 8px 10px;
+				background-color: #031014;
+				color: #FFFFFF;
+				display: block;
+				border: 5px solid;
+				border-color: #022029;
+			}
+			#email{
+				width: 200px;
+				height: 30px;
+				margin: 8px 10px;
+				background-color: #031014;
+				color: #FFFFFF;
+				display: block;
+				border: 5px solid;
+				border-color: #022029;
+			}
+			#text{
+				width: 350px;
+				height: 200px;
+				background-color: #031014;
+				margin: 8px 10px;
+				display: block;
+				color: #FFFFFF;
+				border: 5px solid;
+				border-color: #022029;
+			}
+			#boton{
+				width: 60px;
+				height: 30px;
+				margin: 8px 20px;
+				display: block;
+				background: #fcfdff; /* Old browsers */
+				background: -moz-linear-gradient(top,  #fcfdff 0%, #cbccce 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfdff), color-stop(100%,#cbccce)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #fcfdff 0%,#cbccce 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #fcfdff 0%,#cbccce 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #fcfdff 0%,#cbccce 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #fcfdff 0%,#cbccce 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfdff', endColorstr='#cbccce',GradientType=0 ); /* IE6-9 */
+
+			}
+			article section p{
+				width: 470px;
+				margin: 20px auto;
+			}
+			article section h4{
+				margin: 25px 50px;
+			}
+	article aside{
+		width: 430px;
+		margin: 0 auto;
+		position: relative;
+		float: left;
+		}
+		article aside p{
+			margin: 15px;
+		}
+		article aside .title{
+			margin: 30px;
+		}
+		article aside img{
+			margin: 30px 15px;
+		}
+footer{
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+	color: #FFFFFF;
+}
+	footer .flotado{
+		float: left;
+	}
+	footer .menu{
+		float: right;
+		width: 300px;
+	}
+	footer .menu button{
+		margin: 10px 20px;
+		background-color: transparent;
+		color: #FFFFFF;
+	}
+	footer .raya{
+		outline: 1px dotted #FFFFFF;
+		margin: 30px auto;
+		float: left;
+		width: 100%;
+	}

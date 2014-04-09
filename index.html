@@ -1,5 +1,7 @@
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
+	<!-- <meta charset="UTF-8"> -->
 	<title>brigthfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -7,13 +9,13 @@
 	<header>
 		<img src="images/logo.png" class="flotado" id="logo">
 		<nav>
-		<ul>
-			<li class="flotado"><a href="index.html"> Home </a></li>
-			<li class="flotado"><a href="#"> About us</a></li>
-			<li class="flotado"><a href="#"> Portafolio</a></li>
-			<li class="flotado"><a href="#"> Blog </a></li>
-			<li class="flotado"><a href="contact_us.html"> Contact</a></li>
-		</ul>
+			<ul>
+				<li class="flotado"><a href="index.html"> Home </a></li>
+				<li class="flotado"><a href="#"> About us</a></li>
+				<li class="flotado"><a href="#"> Portafolio</a></li>
+				<li class="flotado"><a href="#"> Blog </a></li>
+				<li class="flotado"><a href="contact_us.html"> Contact</a></li>
+			</ul><!-- Uso excesivo de la clase flotado, emplear nav ul li en CSS -->
 		</nav>
 	</header>
 
@@ -21,47 +23,47 @@
 		<img src="images/home.png">
 		<div><h4>This is where the title goes</h4>
 		</div>
-	</figure>
+	</figure><!-- Mala implementación del elemento "figure" <figure><img src="" title="" /><figcaption></figcaption></figure> -->
 
 	<article>
   		<section>
-  				<div id="text" class="flotado">
-  				<h3> Suspendisse semper purus vel quam consequat eleifend. Pellentesque sit. </h3>
-  				<pre>
-  				</pre>
-  				<p>Vivamus dignissim semper sem, sed facilisis risus volutpat non. Donec a orci est. Praesent aliquam augue a consequat euismod. Mauris a mattis ipsum. Etiam cursus arcu ac eros varius condimentum.Donec a orci est. Praesent aliquam augue a consequat euismod. Mauris a mattis ipsum. Etiam cursus arcu ac eros varius condimentum. Nunc a lorem quis enim rhoncus blandit at sed massa.</p> 
-  				<h4 class="flotado"><a href="#">Read more</a></h4>
-  				</div>
+			<div id="text" class="flotado">
+				<h3> Suspendisse semper purus vel quam consequat eleifend. Pellentesque sit. </h3>
+				<pre>
+				</pre><!-- Esta etiqueta pre es innecesaria -->
+				<p>Vivamus dignissim semper sem, sed facilisis risus volutpat non. Donec a orci est. Praesent aliquam augue a consequat euismod. Mauris a mattis ipsum. Etiam cursus arcu ac eros varius condimentum.Donec a orci est. Praesent aliquam augue a consequat euismod. Mauris a mattis ipsum. Etiam cursus arcu ac eros varius condimentum. Nunc a lorem quis enim rhoncus blandit at sed massa.</p> 
+				<h4 class="flotado"><a href="#">Read more</a></h4><!-- Este h4 es innecesario -->
+			</div>
 
-  				<div id="twitter" class="flotado">
-  				<p>This is a spot to display your last tweets on twitter. <span>5 days ago </span></p>
-  				<img src="images/twitter.png">
- 				</div>
+			<div id="twitter" class="flotado">
+				<p>This is a spot to display your last tweets on twitter. <span>5 days ago </span></p>
+				<img src="images/twitter.png">
+			</div>
  		</section>
-
- 				<div class="bloque">
-						<img class="flotado" src="images/design.png">
-							<h2 class="flotado">Design</h2>
-							<p class="flotado">	Aenean malesuada lectus mi, ac tempus purus accumsan eu. Sed bibendum ac dui quis venenatis. Aliquam at purus vel metus sodales rhoncus eget in augue. Donec tristique viverra tortor, placerat scelerisque mi malesuada in.</p>
-							<h4 class="flotado"><a href="#">Read more</a></h4>
-					</div>
-				<div class="bloque">
-					<img class="flotado" src="images/build.png">
-						<h2 class="flotado" >Build</h2>
-						<p class="flotado" >Aenean malesuada lectus mi, ac tempus purus accumsan eu. Sed bibendum ac dui quis venenatis. Aliquam at purus vel metus sodales rhoncus eget in augue. Donec tristique viverra tortor, placerat scelerisque mi malesuada in.</p>	
-						<h4 class="flotado"><a href="#">Read more</a></h4>			
-				</div>
-				<div class="bloque">
-					<img class="flotado" src="images/manage.png">
-						<h2 class="flotado" >Manage</h2>
-						<p class="flotado" >Aenean malesuada lectus mi, ac tempus purus accumsan eu. Sed bibendum ac dui quis venenatis. Aliquam at purus vel metus sodales rhoncus eget in augue. Donec tristique viverra tortor, placerat scelerisque mi malesuada in.</p>
-						<h4 class="flotado"><a href="#">Read more</a></h4>	
-				</div>
-  	</article>
+	<!-- </article> -->
+	<!-- <article> -->
+		<div class="bloque"><!-- si estas utilizando "article" este elemento debe ser un "section" -->
+			<img class="flotado" src="images/design.png">
+				<h2 class="flotado">Design</h2>
+				<p class="flotado">	Aenean malesuada lectus mi, ac tempus purus accumsan eu. Sed bibendum ac dui quis venenatis. Aliquam at purus vel metus sodales rhoncus eget in augue. Donec tristique viverra tortor, placerat scelerisque mi malesuada in.</p>
+				<h4 class="flotado"><a href="#">Read more</a></h4><!-- Etiqueta h4 innecesaria -->
+		</div>
+		<div class="bloque"><!-- si estas utilizando "article" este elemento debe ser un "section" -->
+			<img class="flotado" src="images/build.png">
+				<h2 class="flotado" >Build</h2>
+				<p class="flotado" >Aenean malesuada lectus mi, ac tempus purus accumsan eu. Sed bibendum ac dui quis venenatis. Aliquam at purus vel metus sodales rhoncus eget in augue. Donec tristique viverra tortor, placerat scelerisque mi malesuada in.</p>	
+				<h4 class="flotado"><a href="#">Read more</a></h4><!-- Etiqueta h4 innecesaria -->			
+		</div>
+		<div class="bloque"><!-- si estas utilizando "article" este elemento debe ser un "section" -->
+			<img class="flotado" src="images/manage.png">
+				<h2 class="flotado" >Manage</h2>
+				<p class="flotado" >Aenean malesuada lectus mi, ac tempus purus accumsan eu. Sed bibendum ac dui quis venenatis. Aliquam at purus vel metus sodales rhoncus eget in augue. Donec tristique viverra tortor, placerat scelerisque mi malesuada in.</p>
+				<h4 class="flotado"><a href="#">Read more</a></h4><!-- Etiqueta h4 innecesaria -->	
+		</div>
+	</article>
 
   	<footer>
   		<img src="images/logo.png">
-  	</footer>
+  	</footer><!-- De acuerdo con la maqueta faltan los elementos del menu -->
 </body>
 </html>
-

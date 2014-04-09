@@ -13,10 +13,20 @@
 	font-family: "releway";
 	src: url("../artifacts/raleway-regular-webfont/raleway-regular-webfont.ttf");
 }
+/*@font-face {
+    font-family: 'raleway';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-webfont.woff') format('woff'),
+         url('raleway-regular-webfont.ttf') format('truetype'),
+         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/ /* Incluir los archivos de la fuente en la carpeta css */
 
 body
 {
-	font-family: raleway, ralewayIE;
+	font-family: raleway, ralewayIE; /* font-family: raleway; */
 	background-color: #076484;
 	background-image: url("../images/background.png");
 	background-repeat: no-repeat;
@@ -34,55 +44,53 @@ header{
 	margin-left: 30px;
 	padding-bottom: 15px;
 	}
-	#logo{
-		padding-left: 30px;
+#logo{
+	padding-left: 30px;
 	padding-right: 250px;
-	}
-		header nav ul{
+}
+header nav ul{
 	list-style: none;
-	}
-	header nav ul li{
+}
+header nav ul li{
 	margin-top: 10px; 
 	padding-left: 20px;
-
-
-	}
-	header nav ul li a{
-		text-decoration: none;
-		color: white;
-	}
-	header nav ul li a:active{
-		border-left: 15px solid  #04354c;
-		border-right: 15px solid  #04354c;
-		background-color: #04354c;
-		border-radius: 40px;
-	}
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white; /* Utilizar colores en RGB Hexadecimal color:#ffffff; */
+}
+header nav ul li a:active{
+	border-left: 15px solid  #04354c;
+	border-right: 15px solid  #04354c;
+	background-color: #04354c;
+	border-radius: 40px;
+}
 
 figure{
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
-	figure img{
-		margin-left: 40px;
-		width: 865px;
-		height: 258px;
-		border: 15px solid rgba(153, 191, 204, 0.6);
-		border-top-right-radius: 10px;
-		border-top-left-radius: 10px;
-	}
-	figure div{
-		color: white;
-		padding-left: 30px;
-		margin-left: 40px;
-		width: 835px;
-		background-color: #18191c;
-		border:15px solid #18191c;
-		border-bottom-left-radius: 10px;
-		border-bottom-right-radius: 10px;
-	}
+figure img{
+	margin-left: 40px;
+	width: 865px;
+	height: 258px;
+	border: 15px solid rgba(153, 191, 204, 0.6);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+figure div{
+	color: white;
+	padding-left: 30px;
+	margin-left: 40px;
+	width: 835px;
+	background-color: #18191c;
+	border:15px solid #18191c;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
 
 article{
-	color: white;
+	color: white; /* Utilizar colores en RGB Hexadecimal color:#ffffff; */
 	width: 865px;
 	margin-left: 40px;
 	background-color: rgba(2, 35, 46, 0.8);
@@ -96,7 +104,7 @@ article section h4{
 }
 
 article a{
-	color: white;
+	color: white; /* Utilizar colores en RGB Hexadecimal color:#ffffff; */
 }
 
 section{
@@ -108,32 +116,32 @@ section{
 }
 
 #twitter{
-	border:15px solid #afdff2;
-	border-radius: 15px;
-	color: black;
+	border:15px solid #afdff2; /* Utilizar padding en vez de un borde tan grande */
+	border-radius: 15px; 
+	color: black; /* Utilizar colores en RGB Hexadecimal color:#000000; */
 	width: 285px;
 	background-color: #afdff2;
 }
 span{
-	font-weight:900;
+	font-weight:900; /* Funciona si se utiliza font-weight:900px; */
 }
 
 .bloque{
-			float: left;
-			width: 250px;
-			margin: 10px;
-			overflow: hidden;
-			background-color: #022029;
-			border:5px solid #022029;;
-			border-radius: 10px;
-			}
+	float: left;
+	width: 250px;
+	margin: 10px;
+	overflow: hidden;
+	background-color: #022029;
+	border:5px solid #022029;;
+	border-radius: 10px;
+}
 
 .bloque p{
-	border-top:  2px dotted white;
+	border-top:  2px dotted white; /* Utilizar colores en RGB Hexadecimal color:#ffffff; */
 }
 
 footer{
-	border-bottom: 2px dotted white;
+	border-bottom: 2px dotted white; /* Utilizar colores en RGB Hexadecimal color:#ffffff; */
 }
 
 /* CONTACT US */
@@ -154,15 +162,14 @@ footer{
 
 #contact-form {
 	width: 465px; 
-   padding: 20px; 
-   margin: 30px; 
-   border-radius: 15px;   
-   -moz-border-radius: 15px; 
-   -webkit-border-radius: 15px; 
+	padding: 20px; 
+	margin: 30px; 
+	border-radius: 15px;   
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
 }
 
 article section div {
 	border-color: #000000;
 }
-
- 
+/* Falta formatear el formulario */

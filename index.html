@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- <meta lang="en"> -->
+	<!-- <meta charset="UTF-8"> -->
 	<title>Brightfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
+</head>
 <body>
 	<header>
 		<div id="logo" class="flotado">
@@ -16,25 +18,24 @@
 				<li class="flotado"><a href="#">PORTAFOLIO</a></li>
 				<li class="flotado"><a href="#">BLOG</a></li>
 				<li class="flotado"><a href="contact_us.html">CONTACTO</a></li>
-			</ul>
+			</ul><!-- Uso excesivo de la clase "flotado" emplear "nav ul li" -->
 		</nav>
-		<div style="clear: both"></div>
+		<div style="clear: both"></div><!-- Uso indebido de estilos en los tags -->
 	</header>
 
 	<figure>
 		<img src="images/home.png">
 		<div><p>Home sweet home</p></div>
-	</figure>
+	</figure><!-- Elemento malformado, la forma correcta es <figure><img src="#" alt="Home Sweet Home"><figcaption>Home sweet home</figcaption></figure> -->
+	<!-- La figura debería estar encapsulada dentro de un elemento "div" o "aside" -->
 
-
-
-<article>
+	<article>
   		<section>
   			<div class="flotado" id="text">
   			<h3> Nullam eu turpis a urna consequat semper pellentesque eu sapien. In ante erat, molestie a risus a, accumsan vulputate lectus.</h3>
   			<pre>
 
-			</pre>
+			</pre><!-- Uso indebido de la etiqueta, dar margen en CSS -->
 			<p>Sed quis augue rutrum, luctus libero eget, consectetur nunc. Fusce vestibulum tincidunt metus, porta tincidunt nisl bibendum vitae. Aliquam id ipsum faucibus, vestibulum nulla sit amet, posuere ipsum. Integer placerat dapibus eros id lacinia. Mauris mi quam, fermentum nec orci ut, ultrices luctus ligula.<a id="bold" href="#"> Read more</a></p>
 			</div>
 
@@ -49,7 +50,7 @@
   			</div>
 		</section>
   		
-  	<div style="clear: both"></div>
+  		<div style="clear: both"></div><!-- Nuevamente el uso indebido de estilos en los tags, se puede reemplarzar por una clase -->
 						
   		<div id="mainblock" >
  			<div class="bloque">
@@ -67,25 +68,24 @@
 				<h2 class="flotado">Manage</h2>
 				<p class="flotado">Nulla fringilla fermentum convallis. Integer dignissim justo et ullamcorper feugiat. Cras at lacus velit. Ut eget odio volutpat, adipiscing lectus at, tincidunt nisi. Duis quis tellus non purus aliquet elementum.Quisque non sem felis.<a id="bold" href="#">Read more</a></p>
 			</div>
+		</div><!-- Este "div" debería ser un "section" -->
+	</article>
+
+	<footer>
+		<div id="logopie" class="flotado">
+			<img src="images/logo.png"><!-- No olvidar colocar el atributo "title" para entregar semantica -->
+			<p>Copyright &#169; 2010 - Brigthfolio- All rights reserved.</p>
 		</div>
-</article>
-
-
-<footer>
-	<div id="logopie" class="flotado">
-		<img src="images/logo.png">
-		<p>Copyright &#169; 2010 - Brigthfolio- All rights reserved.</p>
-	</div>
-	<nav class="flotado">  
-		<ul>
-			<li class="flotado"><a href="#">home</a></li>
-			<li class="flotado"><a href="#">portafolio</a></li>
-			<li class="flotado"><a href="contact_us.html">contacto</a></li>
-			<li class="flotado"><a href="#">acerca de</a></li>
-			<li class="flotado"><a href="#">blog</a></li>
-			<li class="flotado"><a href="#">mapa del sitio</a></li>
-		</ul>
-	</nav>
-</footer>
+		<nav class="flotado">  
+			<ul>
+				<li class="flotado"><a href="#">home</a></li>
+				<li class="flotado"><a href="#">portafolio</a></li>
+				<li class="flotado"><a href="contact_us.html">contacto</a></li>
+				<li class="flotado"><a href="#">acerca de</a></li>
+				<li class="flotado"><a href="#">blog</a></li>
+				<li class="flotado"><a href="#">mapa del sitio</a></li>
+			</ul><!-- Nuevamente el uso excesivo de la clase "flotado" -->
+		</nav>
+	</footer>
 </body>
 </html>

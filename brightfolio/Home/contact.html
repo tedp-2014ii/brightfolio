@@ -3,33 +3,33 @@
 <head>
 	<meta charset= "utf-8">
 	<title>BRIGHTFOLIO</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"><!-- Debería dirigir al mismo archivo que el home.html, no es necesario copiar la carpeta css dentro de la carpeta <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
 
 </head>
 <body>
 	<header>
 		<img src="logo.png">
-		<button><a href="#"><p>Contact</p></a></button>
+		<button><a href="#"><p>Contact</p></a></button><!-- Nuevamente, no son botones, podría ser una lista -->
 		<button><a href="#"><p>Blog</p></a></button>
 		<button><a href="#"><p>About us</p></a></button>
 		<button><a href="#"><p>Portfolio</p></a></button>
-		<button><a href="../home.html"><p>Home</p></a></button>
+		<button><a href="../home.html"><p>Home</p></a></button><!-- Tu menu debe comenzar por este elemento, recuerda la semantica -->
 	</header>
 	<article>
-		<div class="flotado"><h3>CONTACT US</h3></div>
+		<div class="flotado"><h3>CONTACT US</h3></div><!-- No es necesario encapsular en un <div> recuerda que se comporta como un bloque, solo asigna propiedades en CSS -->
 		<section>
 			<h4>CONTACT FROM</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-			<form>
+			<form><!-- <form method="" action=""> -->
 			  <input id="name" required value="YOU NAME">
 			  <input id="email" type="email" value="EMAIL">
 			  <input id="text" required>
 			  <input id="boton" type="submit" value="Sumit">
 			</form>
 		</section>
-		<aside>
-			<div class="title"><p>CONTACT INFORMATION</p></div>
+		<aside><!-- Bien empleado el <aside> -->
+			<div class="title"><p>CONTACT INFORMATION</p></div><!-- Debería ser un elemento h2, h3 -->
 			<p><b>telefono:</b> (555) 123-456</p>
 			<p><b>email:</b> brightfolio@example.com</p>
 			<p><b>adress: </b> 555 W Madison, Ricago IL</p>
@@ -47,10 +47,10 @@
 			<button><p>Blog</p></button>
 			<button><p>About us</p></button>
 			<button><p>Portfolio</p></button>
-			<button><p>Home</p></button>
+			<button><p>Home</p></button><!-- Tu menu debe comenzar por este elemento, recuerda la semantica -->
 			<button><p>Sitemap</p></button>
 		</div>
-		<div class="raya"></div>
+		<div class="raya"></div><!-- Sustituir por un borde en las propiedades del elemento anterior -->
 		<div style="clear: both"></div>
 	</footer>
 </body>

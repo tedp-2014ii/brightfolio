@@ -9,14 +9,13 @@
 <body>
 	<header>
 		<img src="logo.png">
-		<button><a href="Home/contact.html"><p>Contact</p></a></button>
-		<button><a href="#"><p>Blog</p></a></button>
-		<button><a href="#"><p>About us</p></a></button>
+		<button><a href="Home/contact.html"><p>Contact</p></a></button><!-- El archivo contact.html debe estar en la raíz del directorio junto con este -->
+		<button><a href="#"><p>About us</p></a></button><!-- Estos elementos no son botones, son enlaces solamente, el boton esta mal empleado, en todo caso deberías usar una lista <ul><li><a href="#" title="Contact">Contact</a></li>...</ul> -->
 		<button><a href="#"><p>Portfolio</p></a></button>
-		<button><a href="#"><p>Home</p></a></button>
+		<button><a href="#"><p>Home</p></a></button><!-- Tu menu debe comenzar por este elemento, recuerda la semantica -->
 	</header>
 	<figure>
-		<img src="home.png">
+		<img src="home.png"><!-- Recuerda agregar el atributo alt, <img src="images/home.png" alt="Home" /> --> 
 		<figcaption><p>This is Where the Title Goes</p></figcaption>	
 	</figure>
 	<article>
@@ -25,7 +24,7 @@
 				<h3>No basta saber, se debe también aplicar. No es suficiente querer, se debe también hacer.</h3>
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 			</div>
-			<div>
+			<div><!-- Este elemento podría ser el <aside> contenido adicional al principal -->
 				<div class="comentario">
 					<p>"No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."</p>
 				</div>
@@ -37,18 +36,18 @@
 			</div>
 			<div style="clear: both"></div>
 		</section>
-		<aside>
+		<aside><!-- Este debería ser un elemento section, es contenido relevante del sitio -->
 			<div class="flotado">
 				<img src="desing.png">
-				<p class="encabezado"><b>DESING</b></p>
-				<div class="raya"></div>
+				<p class="encabezado"><b>DESING</b></p><!-- Emplear etiqueta h2, h3 --> 
+				<div class="raya"></div><!-- Este div se puede sustituir en el CSS con un border -->
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. <a href="#">READ MORE</a></p>
 			</div>
 			
 			<div class="flotado">
 				<img src="build.png">
-				<p class="encabezado"><b>BUILD</b></p>
-				<div class="raya"></div>
+				<p class="encabezado"><b>BUILD</b></p><!-- Emplear etiqueta h2, h3 --> 
+				<div class="raya"></div><!-- Este div se puede sustituir en el CSS con un border -->
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. <a href="#">READ MORE</a></p>
 			</div>
 			
@@ -59,7 +58,7 @@
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. <a href="#">READ MORE</a></p>
 			</div>
 			
-			<div style="clear: both"></div>
+			<div style="clear: both"></div><!-- No utilizar propiedades de estilo en los tags -->
 		</aside>
 	</article>
 	<footer>
@@ -68,14 +67,14 @@
 			<p>Copyright © 2010 -Brightfolio- All rights reserved</p>
 		</div>
 		<div class="menu">
-			<button><p>Contact</p></button>
+			<button><p>Contact</p></button><!-- Nuevamente, no son botones, podría ser una lista -->
 			<button><p>Blog</p></button>
 			<button><p>About us</p></button>
 			<button><p>Portfolio</p></button>
-			<button><p>Home</p></button>
+			<button><p>Home</p></button><!-- Tu menu debe comenzar por este elemento, recuerda la semantica -->
 			<button><p>Sitemap</p></button>
 		</div>
-		<div class="raya"></div>
+		<div class="raya"></div><!-- Sustituir por un borde en las propiedades del elemento anterior -->
 		<div style="clear: both"></div>
 	</footer>
 </body>
